@@ -1,0 +1,25 @@
+{
+  "order": 1,
+  "slug": "gst-calculator",
+  "name": "GST calculator",
+  "blurb": "Add or remove GST from a price",
+  "intro": "Find the GST on a bill. Add GST to a price, or take it out of a price that already has GST.",
+  "steps": [
+    {
+      "title": "Enter the amount"
+    },
+    {
+      "title": "Pick the GST rate",
+      "body": "Tap a rate, or type your own. Check the right rate for your item."
+    },
+    {
+      "title": "Choose add or remove",
+      "body": "Add GST to a price, or remove GST from a price that already has it."
+    }
+  ],
+  "formula": "Add GST: price with GST = price + price × rate ÷ 100. Remove GST: price before GST = price with GST × 100 ÷ (100 + rate). CGST and SGST are half of the GST each, for a sale within one state.",
+  "facts": [
+    "gst_slabs"
+  ],
+  "disclaimer": true
+}

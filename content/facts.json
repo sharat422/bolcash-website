@@ -15,7 +15,15 @@
     "value": "0%, 5%, 18% and 40%. The 12% and 28% slabs were removed (GST 2.0).",
     "asOf": "2025-09-22",
     "sourceName": "gst.gov.in (TODO: verify exact page)",
-    "sourceUrl": "https://www.gst.gov.in"
+    "sourceUrl": "https://www.gst.gov.in",
+    "data": {
+      "rates": [
+        0,
+        5,
+        18,
+        40
+      ]
+    }
   },
   "gst_registration": {
     "value": "Goods-only suppliers: ₹40 lakh in most states. Services: ₹20 lakh. Lower limits in special-category states (see gst-states.json).",
@@ -33,7 +41,11 @@
     "value": "Pay micro and small suppliers within 15 days if there is no written agreement, and within 45 days at most if there is one. Rule: Income-tax Act 1961 s.43B(h), now s.37(2)(g) of the Income-tax Act 2025. Complaints can be filed on odr.msme.gov.in (since 15 October 2025).",
     "asOf": "2025-10-15",
     "sourceName": "odr.msme.gov.in (TODO: verify rule text)",
-    "sourceUrl": "https://odr.msme.gov.in"
+    "sourceUrl": "https://odr.msme.gov.in",
+    "data": {
+      "noAgreementDays": 15,
+      "maxAgreementDays": 45
+    }
   },
   "mudra": {
     "value": "Shishu: up to ₹50,000. Kishore: up to ₹5 lakh. Tarun: up to ₹10 lakh. Tarun Plus: up to ₹20 lakh, for repeat Tarun borrowers.",

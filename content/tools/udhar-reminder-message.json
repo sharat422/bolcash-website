@@ -1,0 +1,19 @@
+{
+  "order": 8,
+  "slug": "udhar-reminder-message",
+  "name": "Udhar reminder message",
+  "blurb": "A polite payment reminder for WhatsApp",
+  "intro": "Write a polite message to remind a customer about udhar. Send it on WhatsApp in English or Hindi.",
+  "steps": [
+    {
+      "title": "Choose the language"
+    },
+    {
+      "title": "Enter the customer's name and the amount"
+    },
+    {
+      "title": "Send it on WhatsApp",
+      "body": "Add a mobile number to open that chat directly."
+    }
+  ]
+}

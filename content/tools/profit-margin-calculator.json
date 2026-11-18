@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "profit-margin-calculator",
+  "name": "Profit and margin calculator",
+  "blurb": "Profit, margin and markup on an item",
+  "intro": "Find your profit on an item, and your margin and markup in percent.",
+  "steps": [
+    {
+      "title": "Enter your cost price",
+      "body": "What you paid for the item."
+    },
+    {
+      "title": "Enter your selling price"
+    },
+    {
+      "title": "Read the result",
+      "body": "Margin is profit out of the selling price. Markup is profit out of the cost price."
+    }
+  ],
+  "formula": "Profit = selling price − cost price. Margin = profit ÷ selling price × 100. Markup = profit ÷ cost price × 100."
+}

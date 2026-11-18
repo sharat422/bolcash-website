@@ -1,0 +1,20 @@
+{
+  "order": 2,
+  "slug": "interest-calculator",
+  "name": "Simple interest calculator",
+  "blurb": "Interest on money you lent or borrowed",
+  "intro": "Work out simple interest on udhar or a loan. Enter the amount, the yearly rate and the number of days.",
+  "steps": [
+    {
+      "title": "Enter the amount"
+    },
+    {
+      "title": "Enter the yearly rate",
+      "body": "Use the rate you and the other person agreed."
+    },
+    {
+      "title": "Enter the number of days"
+    }
+  ],
+  "formula": "Interest = amount × rate × days ÷ (100 × 365)."
+}

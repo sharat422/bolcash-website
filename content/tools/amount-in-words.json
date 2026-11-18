@@ -1,0 +1,21 @@
+{
+  "order": 6,
+  "slug": "amount-in-words",
+  "name": "Amount in words",
+  "blurb": "Write a rupee amount in words, Indian style",
+  "intro": "Write an amount in words for a bill or a voucher. It uses lakh and crore.",
+  "steps": [
+    {
+      "title": "Type the amount",
+      "body": "You can add paise after a decimal point."
+    },
+    {
+      "title": "Read the words"
+    },
+    {
+      "title": "Check them",
+      "body": "Read the words once more before you use them on a bill or cheque."
+    }
+  ],
+  "formula": "The amount is split into crore, lakh, thousand and the rest, and each part is written in words."
+}

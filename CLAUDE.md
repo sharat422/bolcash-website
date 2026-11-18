@@ -71,6 +71,14 @@ Add each command here as it is created. Do not list commands that do not exist y
 - Header menu uses `<details>` (no JS). Prefer plain `<a>` for links.
 - `/styleguide/` (noindex) shows everything. Update it when you add a token or component.
 
+## Content pages
+
+- Business pages (`content/business/*.json`) and tool pages (`content/tools/*.json`) are one JSON file each, rendered by a static `[slug]` route. Loader: `web/lib/content.ts`. File name must equal `slug`.
+- Tool maths is in `web/lib/tools/calculators.ts` (pure functions, tested). The UI is `web/components/ToolForm.tsx`. Tools run in the browser only: nothing typed is sent anywhere.
+- Numbers a tool needs (GST rates, MSME days) live in `facts.json` under `data`, next to the fact they come from. A test checks they match `value`. Do not hard-code them.
+- Page copy (intro, steps) must not contain numbers, prices or percentages: a test enforces this. Put them in `facts.json` and show with `<Fact>`.
+- Rupee amounts: always use `inr()` from `web/lib/format.ts`.
+
 ## Facts
 
 Use `<Fact id="..." />` (`web/components/Fact.tsx`) to print a fact from `content/facts.json` with its source link. Never type a fact into a page by hand.

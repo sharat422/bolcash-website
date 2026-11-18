@@ -1,0 +1,19 @@
+{
+  "order": 3,
+  "slug": "emi-calculator",
+  "name": "EMI calculator",
+  "blurb": "Monthly instalment for a loan",
+  "intro": "Find the monthly instalment for a loan. Your lender's own figure may be a little different.",
+  "steps": [
+    {
+      "title": "Enter the loan amount"
+    },
+    {
+      "title": "Enter the yearly rate"
+    },
+    {
+      "title": "Enter the number of months"
+    }
+  ],
+  "formula": "EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1). P is the loan amount, r is the yearly rate ÷ 12 ÷ 100, and n is the number of months."
+}

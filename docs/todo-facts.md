@@ -13,3 +13,7 @@ Facts that are not fully sourced. Fix each, then remove it from this list.
 - `/download/`: launch date and the real Google Play URL are missing. The Play button goes to `/go/play?src=...`, which does not exist yet.
 - Home: business-type tiles link to `/business/<type>/` pages that are not built yet.
 - `/business/*`: the list of 10 business types is my choice (6 from the brief + garment, mobile, tea stall and eatery, fruit and vegetable seller). Confirm or change. Copy has no numbers or claims; add real facts only via `facts.json`.
+- `/tools/*`: the list of 8 tools is my choice (GST, simple interest, EMI, profit and margin, discount, amount in words, MSME payment due date, udhar reminder message). Confirm or change.
+- `gst_slabs.data.rates` and `msme_payment_rule.data` in `facts.json` are the numbers the tools use. They must match `value`: a test checks this. Verify both against the official pages.
+- `/tools/msme-payment-due-date/`: when the 15/45 days start, and who the rule covers, is marked TODO: verify.
+- GST calculator: CGST/SGST "half each" is shown for same-state sales. Confirm wording with a CA.

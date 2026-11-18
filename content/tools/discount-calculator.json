@@ -1,0 +1,19 @@
+{
+  "order": 5,
+  "slug": "discount-calculator",
+  "name": "Discount calculator",
+  "blurb": "Price after a discount",
+  "intro": "Find how much a discount saves, and the price you pay or charge after it.",
+  "steps": [
+    {
+      "title": "Enter the price"
+    },
+    {
+      "title": "Enter the discount in percent"
+    },
+    {
+      "title": "See the price after discount"
+    }
+  ],
+  "formula": "Discount = price × discount ÷ 100. Price after discount = price − discount."
+}

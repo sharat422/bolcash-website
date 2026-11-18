@@ -1,0 +1,26 @@
+{
+  "order": 7,
+  "slug": "msme-payment-due-date",
+  "name": "MSME payment due date",
+  "blurb": "Last date to pay a micro or small supplier",
+  "intro": "If you buy from a micro or small enterprise, there is a time limit to pay. Find the last date.",
+  "steps": [
+    {
+      "title": "Pick the date of acceptance",
+      "body": "The date you accepted the goods or services."
+    },
+    {
+      "title": "Say if there is a written agreement",
+      "body": "If yes, enter the days agreed in writing."
+    },
+    {
+      "title": "Read the last date"
+    }
+  ],
+  "formula": "Last date = date of acceptance + the days allowed by the rule above.",
+  "facts": [
+    "msme_payment_rule"
+  ],
+  "disclaimer": true,
+  "note": "Start date, exceptions and who the rule applies to: TODO: verify with a CA and on odr.msme.gov.in."
+}
