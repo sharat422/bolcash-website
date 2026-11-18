@@ -13,7 +13,7 @@ const deva = Noto_Sans_Devanagari({
 });
 
 export const metadata: Metadata = {
-  title: "BolCash",
+  title: { default: "BolCash", template: "%s | BolCash" },
   description: "BolCash: digital udhar khata and cash book for Indian shop owners.",
 };
 

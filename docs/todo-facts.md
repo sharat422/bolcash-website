@@ -9,3 +9,6 @@ Facts that are not fully sourced. Fix each, then remove it from this list.
 - `msme_payment_rule`: confirm the s.37(2)(g) Income-tax Act 2025 reference against the Act text.
 - Footer: Grievance Officer name and email are placeholders ("TODO: verify"). Add the real contact before launch.
 - Header/footer: `/features/`, `/business/`, `/tools/`, `/guides/`, `/privacy/`, `/terms/`, `/hi/` pages do not exist yet. The header "Download app" button points to `#download` (the CTA section each page will end with). The second language hub is assumed to be Hindi: confirm.
+- `/features/`: only the three basic features (udhar khata, cash book, balance for each person) are written, because the product feature list is not in `facts.json`. Add the real feature list.
+- `/download/`: launch date and the real Google Play URL are missing. The Play button goes to `/go/play?src=...`, which does not exist yet.
+- Home: business-type tiles link to `/business/<type>/` pages that are not built yet.
