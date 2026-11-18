@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: bolcash
+      POSTGRES_PASSWORD: bolcash # dev only
+      POSTGRES_DB: bolcash
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bolcash"]
+      interval: 5s
+      retries: 10
+  api:
+    build: ./api
+    environment:
+      DATABASE_URL: postgresql://bolcash:bolcash@db:5432/bolcash
+    ports: ["8000:8000"]
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  pgdata:

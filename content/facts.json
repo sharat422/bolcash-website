@@ -1,0 +1,62 @@
+{
+  "udyam_registered": {
+    "value": "7.83 crore enterprises on Udyam + Udyam Assist",
+    "asOf": "2026-02-28",
+    "sourceName": "PIB",
+    "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246892"
+  },
+  "msme_limits": {
+    "value": "Micro: investment up to ₹2.5 crore and turnover up to ₹10 crore. Small: up to ₹25 crore and ₹100 crore. Medium: up to ₹125 crore and ₹500 crore.",
+    "asOf": "2025-04-01",
+    "sourceName": "msme.gov.in (TODO: verify exact page)",
+    "sourceUrl": "https://msme.gov.in"
+  },
+  "gst_slabs": {
+    "value": "0%, 5%, 18% and 40%. The 12% and 28% slabs were removed (GST 2.0).",
+    "asOf": "2025-09-22",
+    "sourceName": "gst.gov.in (TODO: verify exact page)",
+    "sourceUrl": "https://www.gst.gov.in"
+  },
+  "gst_registration": {
+    "value": "Goods-only suppliers: ₹40 lakh in most states. Services: ₹20 lakh. Lower limits in special-category states (see gst-states.json).",
+    "asOf": null,
+    "sourceName": "gst.gov.in (TODO: verify exact page and date)",
+    "sourceUrl": "https://www.gst.gov.in"
+  },
+  "gst_composition": {
+    "value": "₹1.5 crore for goods, ₹50 lakh for services",
+    "asOf": null,
+    "sourceName": "gst.gov.in (TODO: verify exact page and date)",
+    "sourceUrl": "https://www.gst.gov.in"
+  },
+  "msme_payment_rule": {
+    "value": "Pay micro and small suppliers within 15 days if there is no written agreement, and within 45 days at most if there is one. Rule: Income-tax Act 1961 s.43B(h), now s.37(2)(g) of the Income-tax Act 2025. Complaints can be filed on odr.msme.gov.in (since 15 October 2025).",
+    "asOf": "2025-10-15",
+    "sourceName": "odr.msme.gov.in (TODO: verify rule text)",
+    "sourceUrl": "https://odr.msme.gov.in"
+  },
+  "mudra": {
+    "value": "Shishu: up to ₹50,000. Kishore: up to ₹5 lakh. Tarun: up to ₹10 lakh. Tarun Plus: up to ₹20 lakh, for repeat Tarun borrowers.",
+    "asOf": null,
+    "sourceName": "mudra.org.in (TODO: verify exact page and date)",
+    "sourceUrl": "https://www.mudra.org.in"
+  },
+  "svanidhi": {
+    "value": "Lending until 31 March 2030. Loans in tranches of ₹15,000, ₹25,000 and ₹50,000. UPI-linked RuPay credit card after the 2nd loan. Up to ₹1,600 digital cashback.",
+    "asOf": null,
+    "sourceName": "pmsvanidhi.mohua.gov.in (TODO: verify exact page and date)",
+    "sourceUrl": "https://pmsvanidhi.mohua.gov.in"
+  },
+  "upi_oct_2026": {
+    "value": "25.47 billion transactions worth ₹31.53 lakh crore in October 2026, about 822 million a day",
+    "asOf": "2026-11-01",
+    "sourceName": "NPCI (TODO: verify exact page)",
+    "sourceUrl": "https://www.npci.org.in"
+  },
+  "dpdp_deadline": {
+    "value": "13 May 2027",
+    "asOf": null,
+    "sourceName": "TODO: verify source",
+    "sourceUrl": null
+  }
+}
