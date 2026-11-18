@@ -1,0 +1,43 @@
+{
+  "order": 1,
+  "slug": "about",
+  "group": "trust",
+  "title": "About BolCash",
+  "description": "What BolCash is, who it is for, and how this website works.",
+  "updated": "2026-11-18",
+  "draftNote": "TODO: verify the company details on this page before it is published.",
+  "sections": [
+    {
+      "heading": "What BolCash is",
+      "paragraphs": [
+        "BolCash is a digital udhar khata and cash book app for small shops. It is made to help you record credit and cash on your phone.",
+        "The app is not launched yet."
+      ]
+    },
+    {
+      "heading": "Who it is for",
+      "paragraphs": [
+        "BolCash is for kirana, medical, dairy, hardware and wholesale shop owners, and for street vendors."
+      ]
+    },
+    {
+      "heading": "What this website is for",
+      "paragraphs": [
+        "This website has plain-language guides, free tools and pages about the app. The tools run in your browser."
+      ]
+    },
+    {
+      "heading": "How we write our guides",
+      "paragraphs": [
+        "We use short sentences and plain words. Each guide shows the date it was last updated and links to the official sources.",
+        "We do not make up facts, numbers or reviews. Where we are not sure, we write TODO: verify on the page."
+      ]
+    },
+    {
+      "heading": "Who we are",
+      "paragraphs": [
+        "The company name, address and team: TODO: verify"
+      ]
+    }
+  ]
+}
