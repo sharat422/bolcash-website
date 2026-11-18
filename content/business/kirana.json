@@ -1,0 +1,22 @@
+{
+  "order": 1,
+  "slug": "kirana",
+  "name": "Kirana store",
+  "plural": "kirana stores",
+  "blurb": "Udhar for regular customers",
+  "intro": "If you run a kirana store and give goods on udhar to regular customers, you need to remember who took what, and when they paid. BolCash is made to keep these records on your phone.",
+  "uses": [
+    {
+      "title": "Customer udhar",
+      "body": "Note down the udhar each customer takes. Mark it when they pay."
+    },
+    {
+      "title": "Supplier dues",
+      "body": "Keep track of what you owe your wholesalers and distributors, and note it when you pay."
+    },
+    {
+      "title": "Daily cash",
+      "body": "Record the money that comes in and goes out each day."
+    }
+  ]
+}

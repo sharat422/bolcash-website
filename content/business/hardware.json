@@ -1,0 +1,22 @@
+{
+  "order": 4,
+  "slug": "hardware",
+  "name": "Hardware shop",
+  "plural": "hardware shops",
+  "blurb": "Accounts for contractors and buyers",
+  "intro": "If you sell hardware or building material on credit to contractors and regular buyers, the amounts can be large. BolCash helps you keep each account clear.",
+  "uses": [
+    {
+      "title": "Contractor and customer accounts",
+      "body": "Keep the udhar of each contractor or buyer in one place."
+    },
+    {
+      "title": "Supplier dues",
+      "body": "Keep track of what you owe your suppliers and dealers, and note it when you pay."
+    },
+    {
+      "title": "Daily cash",
+      "body": "Record the money that comes in and goes out each day."
+    }
+  ]
+}

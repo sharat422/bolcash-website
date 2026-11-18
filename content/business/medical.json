@@ -1,0 +1,22 @@
+{
+  "order": 2,
+  "slug": "medical",
+  "name": "Medical store",
+  "plural": "medical stores",
+  "blurb": "Udhar and distributor dues",
+  "intro": "A medical store may give medicines on credit to regular customers, and buy stock from distributors on credit. BolCash helps you keep both records in one place.",
+  "uses": [
+    {
+      "title": "Customer udhar",
+      "body": "Note down medicines given on credit and the payments you receive."
+    },
+    {
+      "title": "Supplier dues",
+      "body": "Keep track of what you owe your distributors, and note it when you pay."
+    },
+    {
+      "title": "Daily cash",
+      "body": "Record the money that comes in and goes out each day."
+    }
+  ]
+}

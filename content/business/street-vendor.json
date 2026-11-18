@@ -1,0 +1,22 @@
+{
+  "order": 6,
+  "slug": "street-vendor",
+  "name": "Street vendor",
+  "plural": "street vendors",
+  "blurb": "Small udhar, no paper notebook",
+  "intro": "If you sell from a cart, a stall or the roadside, you may still give small udhar to people you know. BolCash helps you remember it without a paper notebook.",
+  "uses": [
+    {
+      "title": "Small udhar",
+      "body": "Write down small amounts so you do not forget them."
+    },
+    {
+      "title": "Who still has to pay",
+      "body": "See in one place who owes you."
+    },
+    {
+      "title": "Daily cash",
+      "body": "Record the money that comes in and goes out each day."
+    }
+  ]
+}

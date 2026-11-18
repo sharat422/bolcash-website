@@ -4,7 +4,15 @@ for (const width of [360, 768, 1280]) {
   test.describe(`${width}px`, () => {
     test.use({ viewport: { width, height: 800 } });
 
-    for (const path of ["/", "/features/", "/download/", "/styleguide/"]) {
+    for (const path of [
+      "/",
+      "/features/",
+      "/download/",
+      "/business/",
+      "/business/kirana/",
+      "/business/mobile/",
+      "/styleguide/",
+    ]) {
       test(`${path} has no sideways scroll and 44px tap targets`, async ({ page }) => {
         await page.goto(path);
         const overflow = await page.evaluate(

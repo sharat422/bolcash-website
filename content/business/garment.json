@@ -1,0 +1,22 @@
+{
+  "order": 7,
+  "slug": "garment",
+  "name": "Garment shop",
+  "plural": "garment shops",
+  "blurb": "Customer udhar and supplier dues",
+  "intro": "If you sell clothes on credit to regular customers, or take stock from suppliers on credit, BolCash helps you keep both records on your phone.",
+  "uses": [
+    {
+      "title": "Customer udhar",
+      "body": "Note down what each customer still has to pay."
+    },
+    {
+      "title": "Supplier dues",
+      "body": "Keep track of what you owe your cloth and garment suppliers, and note it when you pay."
+    },
+    {
+      "title": "Daily cash",
+      "body": "Record the money that comes in and goes out each day."
+    }
+  ]
+}

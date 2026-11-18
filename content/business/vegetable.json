@@ -1,0 +1,22 @@
+{
+  "order": 10,
+  "slug": "vegetable",
+  "name": "Fruit and vegetable seller",
+  "plural": "fruit and vegetable sellers",
+  "blurb": "Udhar to customers, dues to suppliers",
+  "intro": "If you sell fruit or vegetables and give some customers udhar, or buy from suppliers on credit, BolCash helps you keep both records.",
+  "uses": [
+    {
+      "title": "Customer udhar",
+      "body": "Note down what each customer owes you for the day's sale."
+    },
+    {
+      "title": "Supplier dues",
+      "body": "Keep track of what you owe your suppliers, and note it when you pay."
+    },
+    {
+      "title": "Daily cash",
+      "body": "Record the money that comes in and goes out each day."
+    }
+  ]
+}

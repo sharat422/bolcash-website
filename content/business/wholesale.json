@@ -1,0 +1,22 @@
+{
+  "order": 5,
+  "slug": "wholesale",
+  "name": "Wholesale",
+  "plural": "wholesalers",
+  "blurb": "Many retailer accounts in one place",
+  "intro": "If you sell to retailers on credit, you have many accounts to follow. BolCash helps you see what each retailer owes you.",
+  "uses": [
+    {
+      "title": "Retailer accounts",
+      "body": "Keep the udhar of each retailer in one place."
+    },
+    {
+      "title": "Payments from buyers",
+      "body": "Record each payment against the right account."
+    },
+    {
+      "title": "Supplier dues",
+      "body": "Keep track of what you owe your own suppliers, and note it when you pay."
+    }
+  ]
+}

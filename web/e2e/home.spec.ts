@@ -4,6 +4,9 @@ for (const [path, h1] of [
   ["/", /udhar khata and cash book/i],
   ["/features/", "BolCash features"],
   ["/download/", "Download BolCash"],
+  ["/business/", "BolCash for your business"],
+  ["/business/kirana/", "BolCash for kirana stores"],
+  ["/business/eatery/", "BolCash for tea stalls and eateries"],
 ] as const) {
   test(`${path} has one h1, one download CTA and canonical`, async ({ page }) => {
     await page.goto(path);
@@ -23,4 +26,9 @@ for (const [path, h1] of [
 test("styleguide still prints a sourced fact", async ({ page }) => {
   await page.goto("/styleguide/");
   await expect(page.getByRole("link", { name: /Source: PIB/ })).toBeVisible();
+});
+
+test("home links to all 10 business pages", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator('main a[href^="/business/"]')).toHaveCount(10);
 });

@@ -5,6 +5,7 @@ import { DownloadCTA } from "@/components/DownloadCTA";
 import { FeatureCard } from "@/components/FeatureCard";
 import { PhoneMockup } from "@/components/PhoneMockup";
 import { StepList } from "@/components/StepList";
+import { businessHref, getBusinesses } from "@/lib/business";
 import { pageMeta } from "@/lib/meta";
 
 export const metadata = pageMeta({
@@ -13,15 +14,6 @@ export const metadata = pageMeta({
   description:
     "BolCash is a mobile app to keep your udhar khata and cash book on your phone. For kirana, medical, dairy, hardware and wholesale shops and street vendors.",
 });
-
-const businesses = [
-  { name: "Kirana store", href: "/business/kirana/" },
-  { name: "Medical store", href: "/business/medical/" },
-  { name: "Dairy", href: "/business/dairy/" },
-  { name: "Hardware shop", href: "/business/hardware/" },
-  { name: "Wholesale", href: "/business/wholesale/" },
-  { name: "Street vendor", href: "/business/street-vendor/" },
-];
 
 export default function Home() {
   return (
@@ -80,8 +72,8 @@ export default function Home() {
       <section className="mt-12">
         <h2 className="text-2xl font-bold">For every kind of small shop</h2>
         <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
-          {businesses.map((b) => (
-            <BusinessTile key={b.href} {...b} />
+          {getBusinesses().map((b) => (
+            <BusinessTile key={b.slug} name={b.name} href={businessHref(b.slug)} />
           ))}
         </div>
       </section>

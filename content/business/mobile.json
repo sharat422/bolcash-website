@@ -1,0 +1,22 @@
+{
+  "order": 8,
+  "slug": "mobile",
+  "name": "Mobile and electronics shop",
+  "plural": "mobile and electronics shops",
+  "blurb": "Dues for phones, accessories and repairs",
+  "intro": "If you sell phones and accessories, or do repairs, and sometimes accept payment later, BolCash helps you remember who still has to pay.",
+  "uses": [
+    {
+      "title": "Customer udhar",
+      "body": "Note amounts still due for a phone, an accessory or a repair."
+    },
+    {
+      "title": "Supplier dues",
+      "body": "Keep track of what you owe your distributors, and note it when you pay."
+    },
+    {
+      "title": "Daily cash",
+      "body": "Record the money that comes in and goes out each day."
+    }
+  ]
+}

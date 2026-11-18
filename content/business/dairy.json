@@ -1,0 +1,22 @@
+{
+  "order": 3,
+  "slug": "dairy",
+  "name": "Dairy",
+  "plural": "dairies",
+  "blurb": "A record for each customer",
+  "intro": "If you supply milk to homes every day and collect the money later, the small amounts add up. BolCash helps you keep a separate record for each customer.",
+  "uses": [
+    {
+      "title": "Record for each customer",
+      "body": "Know what each customer owes you, without checking a notebook."
+    },
+    {
+      "title": "Payments received",
+      "body": "Mark each payment when you get it, so the balance stays right."
+    },
+    {
+      "title": "Supplier dues",
+      "body": "Keep track of what you owe your milk suppliers, and note it when you pay."
+    }
+  ]
+}

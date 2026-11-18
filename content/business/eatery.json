@@ -1,0 +1,22 @@
+{
+  "order": 9,
+  "slug": "eatery",
+  "name": "Tea stall and eatery",
+  "plural": "tea stalls and eateries",
+  "blurb": "Tabs for regular customers",
+  "intro": "If regular customers run a tab at your tea stall, tiffin centre or small eatery, BolCash helps you note it down and clear it when they pay.",
+  "uses": [
+    {
+      "title": "Customer tabs",
+      "body": "Note down each regular customer's tab. Mark it when they pay."
+    },
+    {
+      "title": "Supplier dues",
+      "body": "Keep track of what you owe your milk, gas and grocery suppliers, and note it when you pay."
+    },
+    {
+      "title": "Daily cash",
+      "body": "Record the money that comes in and goes out each day."
+    }
+  ]
+}
