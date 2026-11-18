@@ -1,0 +1,47 @@
+{
+  "order": 1,
+  "slug": "gst-slabs-explained",
+  "title": "GST rates (slabs) explained",
+  "summary": "What the GST slabs are and how to find the rate for your item.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "gst_slabs"
+  ],
+  "sections": [
+    {
+      "heading": "What is a GST slab?",
+      "paragraphs": [
+        "GST is charged at fixed rates. These rates are called slabs.",
+        "Each item or service falls under one slab. The rate on your bill depends on the item."
+      ]
+    },
+    {
+      "heading": "The current slabs",
+      "paragraphs": [
+        "The slabs are in the box above, with their source.",
+        "Some items are taxed at zero. Others are taxed at higher rates. Check the rate for your own item before you bill."
+      ]
+    },
+    {
+      "heading": "How to find the rate for your item",
+      "paragraphs": [
+        "Look up the item on the GST portal, or ask your CA.",
+        "Keep the rate in your billing record so you charge it the same way each time."
+      ]
+    }
+  ],
+  "tools": [
+    "gst-calculator"
+  ],
+  "related": [
+    "gst-on-a-bill",
+    "gst-registration-limits"
+  ],
+  "sources": [
+    {
+      "name": "GST portal (gst.gov.in)",
+      "url": "https://www.gst.gov.in"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "order": 5,
+  "slug": "udyam-registration",
+  "title": "Udyam registration: what it is and why it matters",
+  "summary": "A plain guide to Udyam registration for small businesses.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "udyam_registered"
+  ],
+  "sections": [
+    {
+      "heading": "What is Udyam registration?",
+      "paragraphs": [
+        "Udyam registration is the government's registration for micro, small and medium enterprises (MSMEs)."
+      ]
+    },
+    {
+      "heading": "Why do people register?",
+      "paragraphs": [
+        "A registration can help your business be recognised as an MSME. This can matter for some government schemes and rules. Check what applies to you."
+      ]
+    },
+    {
+      "heading": "How to register",
+      "paragraphs": [
+        "Registration is done on the official Udyam portal. Check the portal for the steps.",
+        "Documents, fees and who can register: TODO: verify on udyamregistration.gov.in"
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "msme-size-limits",
+    "udyam-vs-gst-registration"
+  ],
+  "sources": [
+    {
+      "name": "Udyam Registration portal (udyamregistration.gov.in)",
+      "url": "https://udyamregistration.gov.in"
+    },
+    {
+      "name": "PIB press release",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246892"
+    }
+  ]
+}

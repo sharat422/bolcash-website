@@ -17,3 +17,6 @@ Facts that are not fully sourced. Fix each, then remove it from this list.
 - `gst_slabs.data.rates` and `msme_payment_rule.data` in `facts.json` are the numbers the tools use. They must match `value`: a test checks this. Verify both against the official pages.
 - `/tools/msme-payment-due-date/`: when the 15/45 days start, and who the rule covers, is marked TODO: verify.
 - GST calculator: CGST/SGST "half each" is shown for same-state sales. Confirm wording with a CA.
+- `/guides/*`: all 16 guides are DRAFTS (no `reviewed: true`) and show "Draft: TODO: verify" on the page. Each needs a review against its official sources and a CA, then set `reviewed: true` and update the `updated` date. The topic list is my choice. Their only numbers are shown through `<Fact>` from `facts.json`.
+- Guides: sources are official site home pages, not exact pages (same gap as in `facts.json`). Replace with exact page URLs.
+- Guides: procedural details (documents, fees, eligibility, steps for Udyam, Mudra, PM SVANidhi, composition scheme, DPDP) are marked "TODO: verify" and are not written.

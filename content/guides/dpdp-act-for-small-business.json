@@ -1,0 +1,48 @@
+{
+  "order": 13,
+  "slug": "dpdp-act-for-small-business",
+  "title": "DPDP Act: what small shops should know",
+  "summary": "A plain guide to the data protection law and customer details.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "dpdp_deadline"
+  ],
+  "sections": [
+    {
+      "heading": "What is the DPDP Act?",
+      "paragraphs": [
+        "The Digital Personal Data Protection Act is a law about personal data. It sets rules for businesses that collect and use people's data, such as names and phone numbers."
+      ]
+    },
+    {
+      "heading": "What it may mean for a shop",
+      "paragraphs": [
+        "If you keep your customers' names and phone numbers, you handle personal data. Collect only what you need, and keep it safe."
+      ]
+    },
+    {
+      "heading": "The deadline",
+      "paragraphs": [
+        "The date is in the box above.",
+        "What the date means for small businesses: TODO: verify"
+      ]
+    },
+    {
+      "heading": "Get advice",
+      "paragraphs": [
+        "Ask a CA or a lawyer what the law means for your business."
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "going-digital-checklist"
+  ],
+  "sources": [
+    {
+      "name": "Press Information Bureau (pib.gov.in)",
+      "url": "https://www.pib.gov.in"
+    }
+  ]
+}

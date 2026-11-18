@@ -1,0 +1,45 @@
+{
+  "order": 9,
+  "slug": "mudra-loans",
+  "title": "Mudra loans for small businesses",
+  "summary": "What Mudra loans are and what to check before you apply.",
+  "updated": "2026-11-18",
+  "taxLegal": false,
+  "facts": [
+    "mudra"
+  ],
+  "sections": [
+    {
+      "heading": "What is Mudra?",
+      "paragraphs": [
+        "Mudra is a government scheme for small business loans. The loans are given through banks and other lenders."
+      ]
+    },
+    {
+      "heading": "Loan categories",
+      "paragraphs": [
+        "The loans are in groups by size. The names and limits are in the box above."
+      ]
+    },
+    {
+      "heading": "Before you apply",
+      "paragraphs": [
+        "Check the official Mudra site for who can apply and which papers you need. TODO: verify eligibility and documents",
+        "Plan your repayments first. The EMI calculator can help."
+      ]
+    }
+  ],
+  "tools": [
+    "emi-calculator"
+  ],
+  "related": [
+    "pm-svanidhi",
+    "government-schemes-for-small-shops"
+  ],
+  "sources": [
+    {
+      "name": "Mudra (mudra.org.in)",
+      "url": "https://www.mudra.org.in"
+    }
+  ]
+}

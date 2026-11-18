@@ -1,0 +1,44 @@
+{
+  "order": 2,
+  "slug": "gst-registration-limits",
+  "title": "GST registration limits for small shops",
+  "summary": "When a small business needs to register for GST.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "gst_registration"
+  ],
+  "sections": [
+    {
+      "heading": "What is the registration limit?",
+      "paragraphs": [
+        "You need GST registration when your yearly sales cross a limit. This limit is called the threshold.",
+        "The limit is different for goods and for services. It can be lower in some states."
+      ]
+    },
+    {
+      "heading": "The limits",
+      "paragraphs": [
+        "The limits are in the box above, with their source.",
+        "The list of states with lower limits: TODO: verify against gst.gov.in"
+      ]
+    },
+    {
+      "heading": "What if you are below the limit?",
+      "paragraphs": [
+        "You may not need to register. Some businesses choose to register anyway. Ask your CA if it suits you."
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "gst-composition-scheme",
+    "udyam-vs-gst-registration"
+  ],
+  "sources": [
+    {
+      "name": "GST portal (gst.gov.in)",
+      "url": "https://www.gst.gov.in"
+    }
+  ]
+}

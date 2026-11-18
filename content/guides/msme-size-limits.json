@@ -1,0 +1,43 @@
+{
+  "order": 6,
+  "slug": "msme-size-limits",
+  "title": "MSME size limits: micro, small or medium?",
+  "summary": "How a business is grouped as micro, small or medium.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "msme_limits"
+  ],
+  "sections": [
+    {
+      "heading": "How MSMEs are grouped",
+      "paragraphs": [
+        "Businesses are grouped as micro, small or medium. The group depends on investment and on turnover.",
+        "Both are looked at. The limits are in the box above."
+      ]
+    },
+    {
+      "heading": "Why your group matters",
+      "paragraphs": [
+        "Some schemes and rules apply only to micro or small businesses. One example is the payment rule in our guide on MSME payments."
+      ]
+    },
+    {
+      "heading": "Find your group",
+      "paragraphs": [
+        "Compare your investment and your turnover with the limits. If you are unsure, ask your CA."
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "udyam-registration",
+    "msme-payment-rules"
+  ],
+  "sources": [
+    {
+      "name": "Ministry of MSME (msme.gov.in)",
+      "url": "https://msme.gov.in"
+    }
+  ]
+}

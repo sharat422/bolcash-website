@@ -1,0 +1,47 @@
+{
+  "order": 12,
+  "slug": "upi-for-shops",
+  "title": "UPI for shops: accept payments the safe way",
+  "summary": "Why shops use UPI, and how to keep your records and your money safe.",
+  "updated": "2026-11-18",
+  "taxLegal": false,
+  "facts": [
+    "upi_oct_2026"
+  ],
+  "sections": [
+    {
+      "heading": "UPI is widely used",
+      "paragraphs": [
+        "The box above shows how many UPI payments were made in a recent month, from NPCI data."
+      ]
+    },
+    {
+      "heading": "Why shops accept UPI",
+      "paragraphs": [
+        "Customers can pay by scanning your QR code with their phone. The money goes to your bank account."
+      ]
+    },
+    {
+      "heading": "Record every payment",
+      "paragraphs": [
+        "When a customer pays an udhar by UPI, note it in your khata so the balance stays right."
+      ]
+    },
+    {
+      "heading": "Stay safe",
+      "paragraphs": [
+        "Check that the money has reached your account before you hand over the goods. Never share your UPI PIN with anyone."
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "going-digital-checklist"
+  ],
+  "sources": [
+    {
+      "name": "NPCI (npci.org.in)",
+      "url": "https://www.npci.org.in"
+    }
+  ]
+}

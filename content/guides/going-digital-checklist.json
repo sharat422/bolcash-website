@@ -1,0 +1,55 @@
+{
+  "order": 16,
+  "slug": "going-digital-checklist",
+  "title": "Going digital: a checklist for your shop",
+  "summary": "Simple steps to move your shop's records and payments to your phone.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [],
+  "sections": [
+    {
+      "heading": "Start with your records",
+      "paragraphs": [
+        "Write every sale and every payment in one place. A digital khata or cash book app can do this."
+      ]
+    },
+    {
+      "heading": "Accept UPI",
+      "paragraphs": [
+        "Put up a QR code. Read our UPI guide for tips on staying safe."
+      ]
+    },
+    {
+      "heading": "Know your registrations",
+      "paragraphs": [
+        "Check if you need Udyam registration or GST registration. Read our guides on both."
+      ]
+    },
+    {
+      "heading": "Keep your data safe",
+      "paragraphs": [
+        "Lock your phone. Never share an OTP or a PIN. Collect only the customer details you need."
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "upi-for-shops",
+    "udyam-registration",
+    "gst-registration-limits"
+  ],
+  "sources": [
+    {
+      "name": "NPCI (npci.org.in)",
+      "url": "https://www.npci.org.in"
+    },
+    {
+      "name": "Udyam Registration portal (udyamregistration.gov.in)",
+      "url": "https://udyamregistration.gov.in"
+    },
+    {
+      "name": "GST portal (gst.gov.in)",
+      "url": "https://www.gst.gov.in"
+    }
+  ]
+}

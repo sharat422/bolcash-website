@@ -1,0 +1,52 @@
+{
+  "order": 14,
+  "slug": "udyam-vs-gst-registration",
+  "title": "Udyam registration vs GST registration",
+  "summary": "Two different registrations: what each one is for.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "gst_registration"
+  ],
+  "sections": [
+    {
+      "heading": "They are different",
+      "paragraphs": [
+        "Udyam registration is for MSME recognition. GST registration is for tax. One does not replace the other."
+      ]
+    },
+    {
+      "heading": "Udyam registration",
+      "paragraphs": [
+        "It is done on the Udyam portal. Read our Udyam guide for more."
+      ]
+    },
+    {
+      "heading": "GST registration",
+      "paragraphs": [
+        "You need it when your sales cross a limit. The limits are in the box above."
+      ]
+    },
+    {
+      "heading": "Which do you need?",
+      "paragraphs": [
+        "It depends on your business. Ask your CA."
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "udyam-registration",
+    "gst-registration-limits"
+  ],
+  "sources": [
+    {
+      "name": "Udyam Registration portal (udyamregistration.gov.in)",
+      "url": "https://udyamregistration.gov.in"
+    },
+    {
+      "name": "GST portal (gst.gov.in)",
+      "url": "https://www.gst.gov.in"
+    }
+  ]
+}

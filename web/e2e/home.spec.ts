@@ -4,6 +4,8 @@ for (const [path, h1] of [
   ["/", /udhar khata and cash book/i],
   ["/features/", "BolCash features"],
   ["/download/", "Download BolCash"],
+  ["/guides/", "Guides for shop owners"],
+  ["/guides/udyam-registration/", "Udyam registration: what it is and why it matters"],
   ["/tools/", "Free tools for shop owners"],
   ["/tools/gst-calculator/", "GST calculator"],
   ["/business/", "BolCash for your business"],

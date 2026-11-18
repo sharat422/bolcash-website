@@ -6,13 +6,13 @@ export function SourceList({ sources }: { sources: Source[] }) {
   return (
     <section>
       <h2 className="text-xl font-bold">Official sources</h2>
-      <ul className="mt-2 list-disc pl-5">
+      <ul className="mt-1">
         {sources.map((s) => (
           <li key={s.url}>
             <a
               href={s.url}
               rel="noopener"
-              className="inline-block min-h-11 py-2 text-primary underline"
+              className="flex min-h-11 items-center text-primary underline"
             >
               {s.name}
             </a>

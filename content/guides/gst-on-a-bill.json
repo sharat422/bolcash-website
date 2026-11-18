@@ -1,0 +1,49 @@
+{
+  "order": 4,
+  "slug": "gst-on-a-bill",
+  "title": "How to work out GST on a bill",
+  "summary": "Add GST to a price, or take it out of a price, step by step.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "gst_slabs"
+  ],
+  "sections": [
+    {
+      "heading": "Add GST to a price",
+      "paragraphs": [
+        "Find the GST amount from the rate. Add it to the price before tax."
+      ]
+    },
+    {
+      "heading": "Take GST out of a price",
+      "paragraphs": [
+        "If a price already includes GST, you can work out the price before tax from the rate."
+      ]
+    },
+    {
+      "heading": "Use the calculator",
+      "paragraphs": [
+        "The free GST calculator does both. Tap a rate and type the amount."
+      ]
+    },
+    {
+      "heading": "Keep your bills clear",
+      "paragraphs": [
+        "Show the price before GST, the GST and the total on the bill. It helps your customers and your CA."
+      ]
+    }
+  ],
+  "tools": [
+    "gst-calculator"
+  ],
+  "related": [
+    "gst-slabs-explained"
+  ],
+  "sources": [
+    {
+      "name": "GST portal (gst.gov.in)",
+      "url": "https://www.gst.gov.in"
+    }
+  ]
+}

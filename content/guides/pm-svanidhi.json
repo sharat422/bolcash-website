@@ -1,0 +1,42 @@
+{
+  "order": 11,
+  "slug": "pm-svanidhi",
+  "title": "PM SVANidhi for street vendors",
+  "summary": "What the scheme offers and how to find out if you can apply.",
+  "updated": "2026-11-18",
+  "taxLegal": false,
+  "facts": [
+    "svanidhi"
+  ],
+  "sections": [
+    {
+      "heading": "What is PM SVANidhi?",
+      "paragraphs": [
+        "PM SVANidhi is a government scheme for street vendors. It gives small loans to help vendors run their business."
+      ]
+    },
+    {
+      "heading": "What the scheme offers",
+      "paragraphs": [
+        "The lending period, the loan amounts and the other benefits are in the box above."
+      ]
+    },
+    {
+      "heading": "How to apply",
+      "paragraphs": [
+        "Check the official portal for the steps and for who can apply. TODO: verify the steps and eligibility"
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "mudra-loans",
+    "government-schemes-for-small-shops"
+  ],
+  "sources": [
+    {
+      "name": "PM SVANidhi (pmsvanidhi.mohua.gov.in)",
+      "url": "https://pmsvanidhi.mohua.gov.in"
+    }
+  ]
+}

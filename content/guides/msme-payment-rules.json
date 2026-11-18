@@ -1,0 +1,50 @@
+{
+  "order": 7,
+  "slug": "msme-payment-rules",
+  "title": "MSME payment rules: how fast must you pay?",
+  "summary": "The time limit to pay micro and small suppliers, and what it means for you.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "msme_payment_rule"
+  ],
+  "sections": [
+    {
+      "heading": "What is the rule?",
+      "paragraphs": [
+        "There is a time limit to pay micro and small suppliers. The limit depends on whether there is a written agreement.",
+        "The days and the source are in the box above."
+      ]
+    },
+    {
+      "heading": "Why it matters if you buy",
+      "paragraphs": [
+        "If you pay late, there can be an effect on your tax. The box above names the section of the Income-tax Act.",
+        "Ask your CA how it applies to your business."
+      ]
+    },
+    {
+      "heading": "Why it matters if you sell",
+      "paragraphs": [
+        "If you are a micro or small supplier, you can use the complaint portal named above."
+      ]
+    }
+  ],
+  "tools": [
+    "msme-payment-due-date"
+  ],
+  "related": [
+    "getting-paid-by-late-payers",
+    "msme-size-limits"
+  ],
+  "sources": [
+    {
+      "name": "MSME complaints portal (odr.msme.gov.in)",
+      "url": "https://odr.msme.gov.in"
+    },
+    {
+      "name": "Ministry of MSME (msme.gov.in)",
+      "url": "https://msme.gov.in"
+    }
+  ]
+}

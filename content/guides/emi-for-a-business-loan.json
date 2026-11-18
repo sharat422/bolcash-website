@@ -1,0 +1,41 @@
+{
+  "order": 10,
+  "slug": "emi-for-a-business-loan",
+  "title": "Understanding EMI on a business loan",
+  "summary": "What an EMI is and how the rate and months change it.",
+  "updated": "2026-11-18",
+  "taxLegal": false,
+  "facts": [],
+  "sections": [
+    {
+      "heading": "What is an EMI?",
+      "paragraphs": [
+        "EMI means equated monthly instalment. It is the fixed amount you pay each month to repay a loan with interest."
+      ]
+    },
+    {
+      "heading": "How the rate and months change it",
+      "paragraphs": [
+        "A higher rate or a longer loan changes what you pay each month and in total. Try different numbers in the EMI calculator."
+      ]
+    },
+    {
+      "heading": "Check before you borrow",
+      "paragraphs": [
+        "Ask the lender for the total amount you will pay, with all charges. Your lender's figure may differ a little from a calculator."
+      ]
+    }
+  ],
+  "tools": [
+    "emi-calculator"
+  ],
+  "related": [
+    "mudra-loans"
+  ],
+  "sources": [
+    {
+      "name": "Mudra (mudra.org.in)",
+      "url": "https://www.mudra.org.in"
+    }
+  ]
+}

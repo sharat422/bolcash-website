@@ -1,0 +1,58 @@
+{
+  "order": 15,
+  "slug": "government-schemes-for-small-shops",
+  "title": "Government schemes for small shops and vendors",
+  "summary": "A short list of schemes, with a guide for each one.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "mudra",
+    "svanidhi"
+  ],
+  "sections": [
+    {
+      "heading": "Schemes to know",
+      "paragraphs": [
+        "This guide lists schemes that small shops and street vendors may use. Each has its own guide with the details and sources."
+      ]
+    },
+    {
+      "heading": "Loans",
+      "paragraphs": [
+        "Mudra gives loans to small businesses. PM SVANidhi gives loans to street vendors. The details are in the boxes above."
+      ]
+    },
+    {
+      "heading": "Registration",
+      "paragraphs": [
+        "Udyam registration can help your business be recognised as an MSME. Read our Udyam guide."
+      ]
+    },
+    {
+      "heading": "Check the rules",
+      "paragraphs": [
+        "Each scheme has its own rules. Read them on the official site before you apply."
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "mudra-loans",
+    "pm-svanidhi",
+    "udyam-registration"
+  ],
+  "sources": [
+    {
+      "name": "Mudra (mudra.org.in)",
+      "url": "https://www.mudra.org.in"
+    },
+    {
+      "name": "PM SVANidhi (pmsvanidhi.mohua.gov.in)",
+      "url": "https://pmsvanidhi.mohua.gov.in"
+    },
+    {
+      "name": "Udyam Registration portal (udyamregistration.gov.in)",
+      "url": "https://udyamregistration.gov.in"
+    }
+  ]
+}

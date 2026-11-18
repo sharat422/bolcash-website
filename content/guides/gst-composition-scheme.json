@@ -1,0 +1,45 @@
+{
+  "order": 3,
+  "slug": "gst-composition-scheme",
+  "title": "GST composition scheme: a simple guide",
+  "summary": "What the composition scheme is and what to check before you choose it.",
+  "updated": "2026-11-18",
+  "taxLegal": true,
+  "facts": [
+    "gst_composition"
+  ],
+  "sections": [
+    {
+      "heading": "What is the composition scheme?",
+      "paragraphs": [
+        "The composition scheme is a simpler way for small businesses to pay GST.",
+        "Under it, you pay GST as a small fixed share of your sales. There is usually less paperwork than in the regular scheme."
+      ]
+    },
+    {
+      "heading": "The turnover limits",
+      "paragraphs": [
+        "The limits are in the box above, with their source.",
+        "The tax rate and the conditions: TODO: verify against gst.gov.in"
+      ]
+    },
+    {
+      "heading": "What to check before you choose",
+      "paragraphs": [
+        "Ask your CA how it affects the tax credit on your purchases, and what you can show on your bills.",
+        "Check whether your kind of business can use the scheme."
+      ]
+    }
+  ],
+  "tools": [],
+  "related": [
+    "gst-registration-limits",
+    "gst-slabs-explained"
+  ],
+  "sources": [
+    {
+      "name": "GST portal (gst.gov.in)",
+      "url": "https://www.gst.gov.in"
+    }
+  ]
+}
