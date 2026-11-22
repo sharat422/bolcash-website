@@ -22,7 +22,13 @@ export async function generateMetadata({ params }: Props) {
   return pageMeta({
     slug: `business/${slug}`,
     title: `Udhar khata app for ${b.plural}`,
-    description: `BolCash for ${b.plural}: keep your udhar khata and cash book on your phone.`,
+    description: b.intro,
+    keywords: [
+      `udhar khata app for ${b.plural}`,
+      `khata app for ${b.plural}`,
+      `${b.name} billing software`,
+      "Bolcash",
+    ],
   });
 }
 

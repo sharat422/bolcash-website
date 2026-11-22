@@ -4,12 +4,14 @@ import { Card } from "@/components/Card";
 import { DownloadCTA } from "@/components/DownloadCTA";
 import { businessHref, getBusinesses } from "@/lib/business";
 import { pageMeta } from "@/lib/meta";
+import { BUSINESS_KEYWORDS } from "@/lib/seo";
 
 export const metadata = pageMeta({
   slug: "business",
   title: "Business types",
   description:
     "How BolCash helps small FMCG distributors, hardware and building-material traders, and kirana shops.",
+  keywords: BUSINESS_KEYWORDS,
 });
 
 // The three main segments. One line each, using only features listed on /features/.
@@ -18,8 +20,8 @@ const main = [
     title: "Small FMCG distributors",
     who: "One to four beats, and 80 to 300 retailers.",
     help: "Keep a ledger for each beat, record your collections, and reconcile the daily close.",
-    href: "/features/",
-    link: "See features",
+    href: businessHref("fmcg-distributor"),
+    link: "FMCG distributors",
   },
   {
     title: "Hardware and building-material traders",

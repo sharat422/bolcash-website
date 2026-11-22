@@ -4,9 +4,9 @@ import { getBusinesses } from "./business";
 describe("business content", () => {
   const all = getBusinesses();
 
-  it("has the 10 business-type pages with unique slugs", () => {
-    expect(all).toHaveLength(10);
-    expect(new Set(all.map((b) => b.slug)).size).toBe(10);
+  it("has the 11 business-type pages with unique slugs", () => {
+    expect(all).toHaveLength(11);
+    expect(new Set(all.map((b) => b.slug)).size).toBe(11);
   });
 
   it("every page has an intro and 3 uses with text", () => {

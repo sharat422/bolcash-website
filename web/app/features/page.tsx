@@ -3,12 +3,14 @@ import { Callout } from "@/components/Callout";
 import { DownloadCTA } from "@/components/DownloadCTA";
 import { FeatureCard } from "@/components/FeatureCard";
 import { pageMeta } from "@/lib/meta";
+import { FEATURES_KEYWORDS } from "@/lib/seo";
 
 export const metadata = pageMeta({
   slug: "features",
-  title: "Features",
+  title: "Features — khata app for FMCG distributors",
   description:
     "BolCash features: a ledger for each beat, beat collections matched to the bill, a reconciled daily close, GST invoices with export for your CA and Tally, stock basics, income and expenses, customer records, receipt scanning, recurring expenses and reports.",
+  keywords: FEATURES_KEYWORDS,
 });
 
 export default function Features() {

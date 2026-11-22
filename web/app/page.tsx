@@ -3,8 +3,16 @@ import type { Metadata } from "next";
 import { Badge } from "@/components/Badge";
 import { Button } from "@/components/Button";
 import { FeatureCard } from "@/components/FeatureCard";
+import { JsonLd } from "@/components/JsonLd";
 import { WaitlistForm } from "@/components/WaitlistForm";
 import { pageMeta } from "@/lib/meta";
+import {
+  FAQ_ITEMS,
+  HOME_KEYWORDS,
+  faqJsonLd,
+  organizationJsonLd,
+  softwareApplicationJsonLd,
+} from "@/lib/seo";
 import { LAUNCH } from "@/lib/site";
 
 const tagline =
@@ -12,16 +20,18 @@ const tagline =
 
 const base = pageMeta({
   slug: "",
-  title: "Bolcash — digital udhar khata for Indian distributors",
-  description: tagline,
+  title: "Bolcash — khata app for FMCG distributors in India",
+  description:
+    "Khata app for small FMCG distributors in India: beat ledgers, beat collections, UPI reconciliation, GST invoices with Tally export, stock basics, and a daily close that reconciles cash, UPI and credit.",
+  keywords: HOME_KEYWORDS,
 });
 
 export const metadata: Metadata = {
   ...base,
-  title: { absolute: "Bolcash — digital udhar khata for Indian distributors" },
+  title: { absolute: "Bolcash — khata app for FMCG distributors in India" },
   openGraph: {
     ...base.openGraph,
-    title: "Bolcash — the khata that closes the day.",
+    title: "Bolcash — khata app for FMCG distributors in India",
     description: tagline,
   },
 };
@@ -29,10 +39,14 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <JsonLd data={softwareApplicationJsonLd()} />
+      <JsonLd data={organizationJsonLd()} />
+      <JsonLd data={faqJsonLd()} />
+
       <section>
         <Badge tone="accent">Launching {LAUNCH}</Badge>
         <h1 className="mt-3 text-3xl font-bold md:text-4xl">
-          Bolcash — the khata that closes the day.
+          Bolcash — the khata app for FMCG distributors in India
         </h1>
         <p className="mt-3 text-lg text-muted">{tagline}</p>
         <div className="mt-5">
@@ -67,6 +81,18 @@ export default function Home() {
           <FeatureCard title="Daily close">
             Cash, UPI, credit given and credit collected, reconciled at the end of the day.
           </FeatureCard>
+        </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold">Questions distributors ask</h2>
+        <div className="mt-4 space-y-6">
+          {FAQ_ITEMS.map((f) => (
+            <div key={f.question}>
+              <h3 className="text-lg font-semibold">{f.question}</h3>
+              <p className="mt-1 text-muted">{f.answer}</p>
+            </div>
+          ))}
         </div>
       </section>
 

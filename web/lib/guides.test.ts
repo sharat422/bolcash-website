@@ -18,9 +18,9 @@ describe("guides", () => {
   const all = getGuides();
   const slugs = all.map((g) => g.slug);
 
-  it("has 16 guides with unique slugs", () => {
-    expect(all).toHaveLength(16);
-    expect(new Set(slugs).size).toBe(16);
+  it("has 18 guides with unique slugs", () => {
+    expect(all).toHaveLength(18);
+    expect(new Set(slugs).size).toBe(18);
   });
 
   it("every guide has a valid date and sections", () => {

@@ -6,15 +6,18 @@ export function pageMeta({
   slug,
   title,
   description,
+  keywords,
 }: {
   slug: string;
   title: string;
   description: string;
+  keywords?: string[];
 }): Metadata {
   const url = pageUrl(slug);
   return {
     title,
     description,
+    ...(keywords ? { keywords } : {}),
     alternates: { canonical: url },
     openGraph: { title, description, url, siteName: "Bolcash", locale: "en_IN", type: "website" },
   };

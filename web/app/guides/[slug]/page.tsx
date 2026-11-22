@@ -24,7 +24,12 @@ export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const g = getGuides().find((x) => x.slug === slug);
   if (!g) notFound();
-  return pageMeta({ slug: `guides/${slug}`, title: g.title, description: g.summary });
+  return pageMeta({
+    slug: `guides/${slug}`,
+    title: g.title,
+    description: g.summary,
+    keywords: [g.title, "Bolcash"],
+  });
 }
 
 export default async function GuidePage({ params }: Props) {

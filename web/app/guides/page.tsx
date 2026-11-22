@@ -3,12 +3,14 @@ import { BusinessTile } from "@/components/BusinessTile";
 import { DownloadCTA } from "@/components/DownloadCTA";
 import { getGuides, guideHref } from "@/lib/guides";
 import { pageMeta } from "@/lib/meta";
+import { GUIDES_KEYWORDS } from "@/lib/seo";
 
 export const metadata = pageMeta({
   slug: "guides",
   title: "Guides for shop owners",
   description:
-    "Plain-language guides for shop owners on GST, Udyam registration, MSME rules, Mudra loans, PM SVANidhi, UPI and data protection.",
+    "Plain-language guides for shop owners and distributors on GST, UPI reconciliation, Udyam registration, MSME rules, Mudra loans, PM SVANidhi and data protection.",
+  keywords: GUIDES_KEYWORDS,
 });
 
 export default function GuidesHub() {

@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: Props) {
     slug: `tools/${slug}`,
     title: `${t.name}: free online`,
     description: `${t.intro}`,
+    keywords: [t.name, "free calculator", "Bolcash"],
   });
 }
 

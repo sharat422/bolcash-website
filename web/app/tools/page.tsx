@@ -2,6 +2,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { BusinessTile } from "@/components/BusinessTile";
 import { DownloadCTA } from "@/components/DownloadCTA";
 import { pageMeta } from "@/lib/meta";
+import { TOOLS_KEYWORDS } from "@/lib/seo";
 import { getTools, toolHref } from "@/lib/tools";
 
 export const metadata = pageMeta({
@@ -9,6 +10,7 @@ export const metadata = pageMeta({
   title: "Free tools for shop owners",
   description:
     "Free calculators for shop owners: GST, interest, EMI, profit margin, discount, amount in words, MSME payment date and udhar reminder messages.",
+  keywords: TOOLS_KEYWORDS,
 });
 
 export default function ToolsHub() {
