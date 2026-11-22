@@ -9,11 +9,11 @@ describe("trust pages", () => {
     for (const p of all) expect(p.group).toBe("trust");
   });
 
-  it("every page has a date, a draft note and sections", () => {
+  it("every page has a date and a draft note", () => {
     for (const p of all) {
       expect(p.updated, p.slug).toMatch(/^\d{4}-\d{2}-\d{2}$/);
       expect(p.draftNote, p.slug).toContain("TODO: verify");
-      expect(p.sections.length, p.slug).toBeGreaterThanOrEqual(3);
+      expect(p.sections.length, p.slug).toBeGreaterThanOrEqual(1);
     }
   });
 
@@ -37,13 +37,11 @@ describe("trust pages", () => {
     for (const l of lines) expect(l).toContain("TODO: verify");
   });
 
-  it("the terms carry the CA note (rule 4)", () => {
-    const t = all.find((p) => p.slug === "terms")!;
-    expect(JSON.stringify(t)).toContain("Confirm with a CA.");
-  });
-
-  it("the privacy page makes no claim about tracking that the site breaks", () => {
-    const p = all.find((x) => x.slug === "privacy")!;
-    expect(JSON.stringify(p)).toContain("We do not use analytics or tracking tools");
+  it("privacy and terms are placeholders until lawyer-reviewed text is supplied", () => {
+    for (const slug of ["privacy", "terms"]) {
+      const p = all.find((x) => x.slug === slug)!;
+      expect(p.sections, slug).toHaveLength(1);
+      expect(JSON.stringify(p), slug).toContain("coming soon — the app is in pre-launch.");
+    }
   });
 });

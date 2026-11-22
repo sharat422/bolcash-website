@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { BusinessTile } from "@/components/BusinessTile";
@@ -53,9 +54,12 @@ export default async function BusinessPage({ params }: Props) {
         ))}
       </div>
       <p className="mt-4">
-        <a href="/features/" className="inline-flex min-h-11 items-center text-primary underline">
+        <Link
+          href="/features/"
+          className="inline-flex min-h-11 items-center text-primary underline"
+        >
           All features
-        </a>
+        </Link>
       </p>
 
       <h2 className="mt-10 text-2xl font-bold">Other business types</h2>

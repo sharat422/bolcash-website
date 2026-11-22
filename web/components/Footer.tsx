@@ -2,7 +2,7 @@ import Link from "next/link";
 import { languages, legal, sections } from "@/lib/nav";
 import { Container } from "./Container";
 
-const link = "inline-flex min-h-11 items-center text-muted underline hover:text-ink";
+const link = "inline-flex min-h-11 min-w-11 items-center text-muted underline hover:text-ink";
 
 function Links({
   title,

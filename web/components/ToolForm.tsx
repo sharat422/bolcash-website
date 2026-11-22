@@ -3,9 +3,7 @@
 import { useState } from "react";
 import { calculators } from "@/lib/tools/calculators";
 import { Button } from "./Button";
-
-const input =
-  "min-h-11 w-full rounded-md border border-line bg-surface px-3 text-base text-ink placeholder:text-muted";
+import { inputClass as input } from "./ui";
 
 /** Runs fully in the browser. Nothing typed here is sent anywhere. */
 export function ToolForm({ slug }: { slug: string }) {

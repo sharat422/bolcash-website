@@ -27,7 +27,7 @@ for (const width of [360, 768, 1280]) {
               .length,
         );
         expect(small).toBe(0);
-        await expect(page.getByRole("link", { name: "Download app" })).toBeVisible();
+        await expect(page.getByRole("link", { name: "Join waitlist" })).toBeVisible();
       });
     }
   });

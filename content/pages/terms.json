@@ -3,64 +3,14 @@
   "slug": "terms",
   "group": "trust",
   "title": "Terms of use",
-  "description": "The terms for using the BolCash website.",
+  "description": "Terms of use coming soon — the app is in pre-launch.",
   "updated": "2026-11-18",
-  "draftNote": "TODO: verify these terms with a lawyer before they are published.",
+  "draftNote": "TODO: verify. Add the lawyer-reviewed terms of use text here.",
   "sections": [
     {
-      "heading": "Using this website",
+      "heading": "Coming soon",
       "paragraphs": [
-        "By using this website, you agree to these terms. If you do not agree, please do not use it."
-      ]
-    },
-    {
-      "heading": "General information, not advice",
-      "paragraphs": [
-        "The guides and tools give general information. This is general information, not tax or legal advice. Confirm with a CA.",
-        "Laws and rules change. Check the official sources linked on each page."
-      ]
-    },
-    {
-      "heading": "Tools give estimates",
-      "paragraphs": [
-        "Calculator results are estimates. Check them before you rely on them for a bill, a filing or a loan."
-      ]
-    },
-    {
-      "heading": "Links to other sites",
-      "paragraphs": [
-        "We link to official sites and other websites. We do not control them and are not responsible for what they say."
-      ]
-    },
-    {
-      "heading": "The BolCash app",
-      "paragraphs": [
-        "The BolCash app is not launched yet. The terms for the app: TODO: verify"
-      ]
-    },
-    {
-      "heading": "Our content",
-      "paragraphs": [
-        "You may share links to our pages. Please do not copy our guides or tools to sell them or to pass them off as your own.",
-        "Who owns the content: TODO: verify"
-      ]
-    },
-    {
-      "heading": "Changes to these terms",
-      "paragraphs": [
-        "We may change these terms. The date at the top shows the last update."
-      ]
-    },
-    {
-      "heading": "Governing law and disputes",
-      "paragraphs": [
-        "Which law applies and where disputes are heard: TODO: verify with a lawyer"
-      ]
-    },
-    {
-      "heading": "Questions",
-      "paragraphs": [
-        "For questions about these terms, see the contact and grievance page."
+        "Terms of use coming soon — the app is in pre-launch."
       ]
     }
   ]

@@ -15,7 +15,7 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
               {last ? (
                 <span aria-current="page">{c.name}</span>
               ) : (
-                <a href={c.href} className="inline-flex min-h-11 items-center underline">
+                <a href={c.href} className="inline-flex min-h-11 min-w-11 items-center underline">
                   {c.name}
                 </a>
               )}

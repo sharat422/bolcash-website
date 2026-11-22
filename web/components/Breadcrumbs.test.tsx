@@ -25,7 +25,7 @@ describe("Breadcrumbs", () => {
     expect(data["@type"]).toBe("BreadcrumbList");
     expect(data.itemListElement[2]).toMatchObject({
       position: 3,
-      item: "https://bolcash.in/guides/gst/",
+      item: "https://bolcash.com/guides/gst/",
     });
   });
 });

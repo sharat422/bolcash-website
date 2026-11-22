@@ -194,7 +194,7 @@ export default function Styleguide() {
         </p>
       </Section>
 
-      <DownloadCTA slug="styleguide" title="BolCash styleguide" showAppStore />
+      <DownloadCTA slug="styleguide" title="BolCash styleguide" />
     </>
   );
 }

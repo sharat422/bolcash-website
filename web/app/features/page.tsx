@@ -8,7 +8,7 @@ export const metadata = pageMeta({
   slug: "features",
   title: "Features",
   description:
-    "What BolCash is for: udhar khata, cash book and a balance for each customer or supplier.",
+    "BolCash features: a ledger for each beat, beat collections, a reconciled daily close, income and expenses, customer records, receipt scanning, recurring expenses and reports.",
 });
 
 export default function Features() {
@@ -22,25 +22,40 @@ export default function Features() {
       />
       <h1 className="mt-2 text-3xl font-bold md:text-4xl">BolCash features</h1>
       <p className="mt-3 text-lg text-muted">
-        BolCash helps you keep your shop&apos;s credit and cash records on your phone, not on paper.
+        BolCash helps you keep your shop&apos;s and your route&apos;s records on your phone, not on
+        paper.
       </p>
 
       <div className="mt-6">
         <Callout tone="warning" title="App not launched yet">
-          This page says what BolCash is for. The full feature list: TODO: verify
+          This page says what BolCash is built to do.
         </Callout>
       </div>
 
-      <div className="mt-8 grid gap-4 sm:grid-cols-2">
-        <FeatureCard title="Udhar khata">
-          Note down what each customer owes you, and what you owe your suppliers.
+      <h2 className="mt-10 text-2xl font-bold">For beats and routes</h2>
+      <div className="mt-4 grid gap-4 sm:grid-cols-3">
+        <FeatureCard title="Beat or route ledger">
+          Keep a ledger for each beat or route.
         </FeatureCard>
-        <FeatureCard title="Cash book">
-          Record the money coming in and going out of your shop.
+        <FeatureCard title="Beat collections">
+          Record the money you collect on each beat.
         </FeatureCard>
-        <FeatureCard title="Balance for each person">
-          See how much each customer or supplier owes, without adding up by hand.
+        <FeatureCard title="Reconcile the daily close">
+          Reconcile your day&apos;s collections when you close for the day.
         </FeatureCard>
+      </div>
+
+      <h2 className="mt-10 text-2xl font-bold">For every business</h2>
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+        <FeatureCard title="Income and expenses">
+          Record the money coming in and going out.
+        </FeatureCard>
+        <FeatureCard title="Customer records">Manage the records of your customers.</FeatureCard>
+        <FeatureCard title="Receipt scanning">
+          Scan a receipt and review what BolCash reads from it.
+        </FeatureCard>
+        <FeatureCard title="Recurring expenses">Note the expenses that repeat.</FeatureCard>
+        <FeatureCard title="Reports">See your records as reports.</FeatureCard>
       </div>
 
       <DownloadCTA slug="features" title="BolCash features" />

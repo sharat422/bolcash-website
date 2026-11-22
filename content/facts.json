@@ -12,7 +12,7 @@
     "sourceUrl": "https://msme.gov.in"
   },
   "gst_slabs": {
-    "value": "0%, 5%, 18% and 40%. The 12% and 28% slabs were removed (GST 2.0).",
+    "value": "Main rates are 5%, 18% and 40%, plus 0%/nil. 28% as a general rate is gone. 12% survives only for specified building materials under CBIC Notification 14/2025.",
     "asOf": "2025-09-22",
     "sourceName": "gst.gov.in (TODO: verify exact page)",
     "sourceUrl": "https://www.gst.gov.in",
@@ -26,7 +26,7 @@
     }
   },
   "gst_registration": {
-    "value": "Goods-only suppliers: ₹40 lakh in most states. Services: ₹20 lakh. Lower limits in special-category states (see gst-states.json).",
+    "value": "Goods-only suppliers: ₹40 lakh in most states. Services: ₹20 lakh. Lower limits in special-category states.",
     "asOf": null,
     "sourceName": "gst.gov.in (TODO: verify exact page and date)",
     "sourceUrl": "https://www.gst.gov.in"

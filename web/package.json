@@ -10,7 +10,8 @@
     "format:check": "prettier --check .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "e2e": "playwright test"
+    "e2e": "playwright test",
+    "check:links": "node scripts/check-links.mjs"
   },
   "dependencies": {
     "next": "^15.5.28",

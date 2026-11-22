@@ -11,5 +11,11 @@ export function pageMeta({
   title: string;
   description: string;
 }): Metadata {
-  return { title, description, alternates: { canonical: pageUrl(slug) } };
+  const url = pageUrl(slug);
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: { title, description, url, siteName: "Bolcash", locale: "en_IN", type: "website" },
+  };
 }

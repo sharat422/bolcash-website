@@ -3,6 +3,7 @@ import { Noto_Sans, Noto_Sans_Devanagari } from "next/font/google";
 import { Container } from "@/components/Container";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const latin = Noto_Sans({ subsets: ["latin"], display: "swap", variable: "--font-noto" });
@@ -12,9 +13,18 @@ const deva = Noto_Sans_Devanagari({
   variable: "--font-noto-deva",
 });
 
+const description =
+  "For small FMCG distributors in India: beat ledgers, collections, and a daily close that reconciles cash, UPI and credit.";
+
 export const metadata: Metadata = {
-  title: { default: "BolCash", template: "%s | BolCash" },
-  description: "BolCash: digital udhar khata and cash book for Indian shop owners.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Bolcash — digital udhar khata for Indian distributors",
+    template: "%s | BolCash",
+  },
+  description,
+  icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }] },
+  openGraph: { siteName: "Bolcash", locale: "en_IN", type: "website" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -25,7 +25,7 @@ export function Header() {
           ))}
         </nav>
         <LanguageSwitcher className="hidden md:flex" />
-        <Button href="#download">Download app</Button>
+        <Button href="/#waitlist">Join waitlist</Button>
         {/* Menu uses <details>, so it works without JavaScript. */}
         <details className="relative md:hidden">
           <summary

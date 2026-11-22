@@ -4,6 +4,10 @@ const styles = {
   outline: "border border-primary text-primary hover:bg-surface-2",
 };
 
+/** Class names for anything that looks like a button (links and real <button>s). */
+export const buttonClass = (variant: keyof typeof styles = "primary", className = "") =>
+  `inline-flex min-h-11 items-center justify-center rounded-md px-4 text-base font-semibold ${styles[variant]} ${className}`;
+
 export function Button({
   href,
   variant = "primary",
@@ -21,7 +25,7 @@ export function Button({
     <a
       href={href}
       {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-      className={`inline-flex min-h-11 items-center justify-center rounded-md px-4 text-base font-semibold ${styles[variant]} ${className}`}
+      className={buttonClass(variant, className)}
     >
       {children}
     </a>

@@ -21,7 +21,11 @@ test("contact page shows no invented details", async ({ page }) => {
   await expect(page.getByText("TODO: verify all contact details")).toBeVisible();
 });
 
-test("terms page has the CA note", async ({ page }) => {
-  await page.goto("/terms/");
-  await expect(page.getByText("Confirm with a CA.")).toBeVisible();
+test("privacy and terms show the pre-launch placeholder, not made-up legal text", async ({
+  page,
+}) => {
+  for (const path of ["/privacy/", "/terms/"]) {
+    await page.goto(path);
+    await expect(page.getByText("coming soon — the app is in pre-launch.").first()).toBeVisible();
+  }
 });
