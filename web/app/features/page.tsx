@@ -8,7 +8,7 @@ export const metadata = pageMeta({
   slug: "features",
   title: "Features",
   description:
-    "BolCash features: a ledger for each beat, beat collections, a reconciled daily close, income and expenses, customer records, receipt scanning, recurring expenses and reports.",
+    "BolCash features: a ledger for each beat, beat collections matched to the bill, a reconciled daily close, GST invoices with export for your CA and Tally, stock basics, income and expenses, customer records, receipt scanning, recurring expenses and reports.",
 });
 
 export default function Features() {
@@ -35,14 +35,25 @@ export default function Features() {
       <h2 className="mt-10 text-2xl font-bold">For beats and routes</h2>
       <div className="mt-4 grid gap-4 sm:grid-cols-3">
         <FeatureCard title="Beat or route ledger">
-          Keep a ledger for each beat or route.
+          A separate ledger for each beat or route — one salesman&apos;s collections never mix with
+          another&apos;s.
         </FeatureCard>
         <FeatureCard title="Beat collections">
-          Record the money you collect on each beat.
+          Collections matched to the retailer&apos;s bill, including UPI payments, reconciled by
+          hand against the bill. Bolcash never holds or moves your money.
         </FeatureCard>
         <FeatureCard title="Reconcile the daily close">
-          Reconcile your day&apos;s collections when you close for the day.
+          Cash collected matched to what was written down, before the day ends — a reconciling close
+          for each beat.
         </FeatureCard>
+      </div>
+
+      <h2 className="mt-10 text-2xl font-bold">For your CA and your stock</h2>
+      <div className="mt-4 grid gap-4 sm:grid-cols-2">
+        <FeatureCard title="GST invoices and CA/Tally export">
+          GST invoices with export for your CA / Tally.
+        </FeatureCard>
+        <FeatureCard title="Stock basics">Items in, items sold, items left.</FeatureCard>
       </div>
 
       <h2 className="mt-10 text-2xl font-bold">For every business</h2>

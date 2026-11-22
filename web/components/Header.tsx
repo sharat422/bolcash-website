@@ -3,6 +3,7 @@ import { sections } from "@/lib/nav";
 import { Button } from "./Button";
 import { Container } from "./Container";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { Logo } from "./Logo";
 
 const link =
   "inline-flex min-h-11 items-center rounded-md px-3 text-base text-ink hover:bg-surface-2";
@@ -13,9 +14,10 @@ export function Header() {
       <Container className="flex items-center gap-2 py-2">
         <Link
           href="/"
-          className="mr-auto inline-flex min-h-11 items-center text-xl font-bold text-ink"
+          aria-label="Bolcash — home"
+          className="mr-auto inline-flex min-h-11 items-center"
         >
-          Bol<span className="text-primary">Cash</span>
+          <Logo />
         </Link>
         <nav aria-label="Main" className="hidden items-center md:flex">
           {sections.map((s) => (
