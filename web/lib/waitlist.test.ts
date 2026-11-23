@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { cleanPhone, validateWaitlist, type WaitlistValues } from "./waitlist";
+import { cleanPhone, validateWaitlist, WAITLIST_TEXT_KN, type WaitlistValues } from "./waitlist";
 
 const ok: WaitlistValues = {
   name: "Ravi",
@@ -32,5 +32,15 @@ describe("validateWaitlist", () => {
 
   it("needs consent", () => {
     expect(validateWaitlist({ ...ok, consent: false })).toMatch(/agree/);
+  });
+
+  it("returns Kannada messages when passed the Kannada text", () => {
+    expect(validateWaitlist(ok, WAITLIST_TEXT_KN)).toBeNull();
+    expect(validateWaitlist({ ...ok, name: "  " }, WAITLIST_TEXT_KN)).toBe(
+      "ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ.",
+    );
+    expect(validateWaitlist({ ...ok, phone: "12345" }, WAITLIST_TEXT_KN)).toBe(
+      "10-ಅಂಕಿಯ ಭಾರತೀಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.",
+    );
   });
 });

@@ -1,8 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { API_URL, LAUNCH } from "@/lib/site";
-import { BUSINESS_TYPES, cleanPhone, validateWaitlist, type WaitlistValues } from "@/lib/waitlist";
+import { API_URL } from "@/lib/site";
+import {
+  WAITLIST_TEXT_EN,
+  cleanPhone,
+  validateWaitlist,
+  type WaitlistText,
+  type WaitlistValues,
+} from "@/lib/waitlist";
 import { buttonClass } from "./Button";
 import { inputClass } from "./ui";
 
@@ -11,8 +17,15 @@ const empty: WaitlistValues = { name: "", business_type: "", city: "", phone: ""
 /**
  * Waitlist sign-up. Posts JSON to {API_URL}/waitlist.
  * The fields stay disabled until JavaScript has loaded, so without JS nothing can be sent by mistake.
+ * Pass `text` for a translated form (e.g. WAITLIST_TEXT_KN); English is the default.
  */
-export function WaitlistForm({ source = "home" }: { source?: string }) {
+export function WaitlistForm({
+  source = "home",
+  text = WAITLIST_TEXT_EN,
+}: {
+  source?: string;
+  text?: WaitlistText;
+}) {
   const [v, setV] = useState<WaitlistValues>(empty);
   const [ready, setReady] = useState(false);
   const [sending, setSending] = useState(false);
@@ -25,7 +38,7 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
-    const problem = validateWaitlist(v);
+    const problem = validateWaitlist(v, text);
     if (problem) return setError(problem);
     setError("");
     setSending(true);
@@ -42,14 +55,14 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
         }),
       });
       if (res.ok) return setDone(true);
-      let msg = "Something went wrong. Please try again.";
+      let msg = text.genericError;
       try {
         const body = await res.json();
         if (typeof body.detail === "string") msg = body.detail;
       } catch {}
       setError(msg);
     } catch {
-      setError("Could not reach the server. Check your internet and try again.");
+      setError(text.serverError);
     } finally {
       setSending(false);
     }
@@ -58,7 +71,7 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
   if (done) {
     return (
       <p role="status" className="rounded-md border-l-4 border-primary bg-surface-2 p-4 text-lg">
-        You are on the waitlist. We will message you when Bolcash launches in {LAUNCH}.
+        {text.success}
       </p>
     );
   }
@@ -69,7 +82,7 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
       <fieldset disabled={!ready || sending} className="grid min-w-0 gap-4 border-0 p-0">
         <div>
           <label htmlFor="wl-name" className={field}>
-            Name
+            {text.name}
           </label>
           <input
             id="wl-name"
@@ -81,7 +94,7 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
         </div>
         <div>
           <label htmlFor="wl-type" className={field}>
-            Business type
+            {text.businessType}
           </label>
           <select
             id="wl-type"
@@ -89,8 +102,8 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
             onChange={(e) => set("business_type", e.target.value)}
             className={inputClass}
           >
-            <option value="">Select</option>
-            {BUSINESS_TYPES.map((t) => (
+            <option value="">{text.select}</option>
+            {text.businessTypes.map((t) => (
               <option key={t.value} value={t.value}>
                 {t.label}
               </option>
@@ -99,7 +112,7 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
         </div>
         <div>
           <label htmlFor="wl-city" className={field}>
-            City
+            {text.city}
           </label>
           <input
             id="wl-city"
@@ -111,7 +124,7 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
         </div>
         <div>
           <label htmlFor="wl-phone" className={field}>
-            Phone number
+            {text.phone}
           </label>
           <input
             id="wl-phone"
@@ -124,7 +137,7 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
             className={inputClass}
           />
           <p id="wl-phone-hint" className="mt-1 text-sm text-muted">
-            10-digit Indian mobile number.
+            {text.phoneHint}
           </p>
         </div>
         <label className="flex min-h-11 items-start gap-3">
@@ -134,7 +147,7 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
             onChange={(e) => set("consent", e.target.checked)}
             className="mt-1 h-6 w-6 shrink-0 accent-primary"
           />
-          <span>I agree to be contacted about the Bolcash launch.</span>
+          <span>{text.consent}</span>
         </label>
         {error && (
           <p
@@ -145,7 +158,7 @@ export function WaitlistForm({ source = "home" }: { source?: string }) {
           </p>
         )}
         <button type="submit" className={buttonClass("primary", "w-full sm:w-auto")}>
-          {sending ? "Joining…" : "Join the waitlist"}
+          {sending ? text.submitting : text.submit}
         </button>
       </fieldset>
     </form>

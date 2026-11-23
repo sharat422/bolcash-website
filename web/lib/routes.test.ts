@@ -5,7 +5,7 @@ describe("getSiteRoutes", () => {
   const routes = getSiteRoutes();
   const paths = routes.map((r) => r.path);
 
-  it("lists the core pages, the hubs and the Hindi home page", () => {
+  it("lists the core pages, the hubs and the Hindi and Kannada home pages", () => {
     for (const p of [
       "/",
       "/features/",
@@ -14,6 +14,7 @@ describe("getSiteRoutes", () => {
       "/tools/",
       "/guides/",
       "/hi/",
+      "/kn/",
       "/privacy/",
       "/terms/",
       "/about/",

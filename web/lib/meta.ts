@@ -7,11 +7,13 @@ export function pageMeta({
   title,
   description,
   keywords,
+  locale = "en_IN",
 }: {
   slug: string;
   title: string;
   description: string;
   keywords?: string[];
+  locale?: string;
 }): Metadata {
   const url = pageUrl(slug);
   return {
@@ -19,6 +21,6 @@ export function pageMeta({
     description,
     ...(keywords ? { keywords } : {}),
     alternates: { canonical: url },
-    openGraph: { title, description, url, siteName: "Bolcash", locale: "en_IN", type: "website" },
+    openGraph: { title, description, url, siteName: "Bolcash", locale, type: "website" },
   };
 }

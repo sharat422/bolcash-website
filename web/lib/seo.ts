@@ -115,7 +115,7 @@ export function softwareApplicationJsonLd() {
     operatingSystem: "Android, iOS",
     description:
       "Khata app for small FMCG distributors in India: beat ledgers, beat collections, UPI reconciliation, GST invoices with Tally export, stock basics, and a daily close that reconciles cash, UPI and credit.",
-    inLanguage: ["en", "hi", "te"],
+    inLanguage: ["en", "hi", "te", "kn"],
     author: { "@type": "Organization", name: "Bolcash", url: SITE_URL },
   };
 }

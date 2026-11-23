@@ -8,7 +8,16 @@ export type SiteRoute = { path: string; lastModified?: string };
 
 // Pages that are not driven by a content file. Not listed on purpose: /styleguide/ and /go/*
 // (noindex). `pnpm check:links` compares this list with the built pages, so a page missed here fails.
-const fixed = ["/", "/features/", "/download/", "/business/", "/tools/", "/guides/", "/hi/"];
+const fixed = [
+  "/",
+  "/features/",
+  "/download/",
+  "/business/",
+  "/tools/",
+  "/guides/",
+  "/hi/",
+  "/kn/",
+];
 
 /** Every indexable route, for sitemap.xml. `lastModified` only where the content has an `updated` date. */
 export function getSiteRoutes(): SiteRoute[] {

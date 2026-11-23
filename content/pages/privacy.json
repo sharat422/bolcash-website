@@ -1,17 +1,80 @@
 {
-  "order": 2,
-  "slug": "privacy",
+  "description": "How Bolcash handles your personal data, your rights, and how to contact our Grievance Officer.",
+  "draftNote": "TODO: verify. Draft text copied from the app (ai-cashbook-ind legalContent.ts) — not yet reviewed by a lawyer. Confirm the company name, the registered address, the effective date, and the named Grievance Officer before publishing as final.",
   "group": "trust",
-  "title": "Privacy policy",
-  "description": "Privacy policy coming soon — the app is in pre-launch.",
-  "updated": "2026-11-18",
-  "draftNote": "TODO: verify. Add the lawyer-reviewed privacy policy text here.",
+  "order": 2,
   "sections": [
     {
-      "heading": "Coming soon",
+      "heading": "Who we are",
       "paragraphs": [
-        "Privacy policy coming soon — the app is in pre-launch."
+        "Bahikha Technologies Private Limited (\"we\", \"us\") operates the Bolcash app. This policy explains what personal data we handle and your rights under India's Digital Personal Data Protection Act, 2023 (DPDP Act).",
+        "Registered address: 3-408/26-2, Mancherial, Telangana 504208. Effective date: December 2026."
+      ]
+    },
+    {
+      "heading": "Data we collect",
+      "paragraphs": [
+        "• Account: your mobile number (used for OTP sign-in).",
+        "• Business profile: business name, owner name, type, state, GST status.",
+        "• Financial records you enter: income, expenses, recurring entries.",
+        "• Customers & khata: customer names, mobile numbers, GST, addresses, notes and their credit/payment (ledger) history.",
+        "• Content you provide: receipt images and voice recordings for entry.",
+        "• Diagnostics: basic device/app info and crash reports to keep the app working."
+      ]
+    },
+    {
+      "heading": "How we use it",
+      "paragraphs": [
+        "To provide the cashbook: create your account, store and show your entries, compute balances, reports and reminders.",
+        "To power AI features (voice entry, receipt scanning, insights) — only if you turn on AI processing consent. You can withdraw it anytime."
+      ]
+    },
+    {
+      "heading": "AI processing & who we share data with",
+      "paragraphs": [
+        "With your AI consent, transaction text, voice audio and receipt images are sent to our AI providers (OpenAI, Anthropic and Meta) to extract the details — for example, voice recordings are transcribed by Meta. We minimise this: customer names are replaced with opaque labels before insights are generated.",
+        "Processors who handle data on our behalf: OpenAI, Anthropic and Meta (AI, including voice transcription by Meta), Render (cloud hosting & database), and — if enabled — Meta/WhatsApp (notifications you request) and Sentry (crash reporting). We do not sell your data or use it for advertising."
+      ]
+    },
+    {
+      "heading": "Security",
+      "paragraphs": [
+        "Traffic uses HTTPS/TLS 1.2+. Data is encrypted at rest, and sensitive fields (e.g. GST number, addresses, notes, payment references) are additionally encrypted at the application level."
+      ]
+    },
+    {
+      "heading": "Your rights",
+      "paragraphs": [
+        "You can, from Settings → Your data & privacy: download all your data, correct your business/account details, change or withdraw consent, and delete your account and its data.",
+        "To exercise any right or raise a concern, contact our Grievance Officer below. We aim to acknowledge and respond as soon as possible."
+      ]
+    },
+    {
+      "heading": "Data retention",
+      "paragraphs": [
+        "We keep your data while your account is active. When you delete your account, we erase or anonymise it; we keep only a minimal, PII-free record that a deletion occurred, for compliance."
+      ]
+    },
+    {
+      "heading": "Children",
+      "paragraphs": [
+        "The app is for business use and not intended for anyone under 18."
+      ]
+    },
+    {
+      "heading": "Grievance / Data Protection Officer",
+      "paragraphs": [
+        "Grievance Officer — privacy@bolcash.com. Contact this address for any privacy question or grievance about your personal data. This is separate from general support (support@bolcash.com)."
+      ]
+    },
+    {
+      "heading": "Changes & governing law",
+      "paragraphs": [
+        "We may update this policy; we will note the new effective date here. This policy is governed by the laws of India."
       ]
     }
-  ]
+  ],
+  "slug": "privacy",
+  "title": "Privacy policy",
+  "updated": "2026-11-23"
 }

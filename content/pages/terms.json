@@ -1,17 +1,60 @@
 {
-  "order": 3,
-  "slug": "terms",
+  "description": "The terms for using Bolcash, your account, your data, and our liability.",
+  "draftNote": "TODO: verify. Draft text copied from the app (ai-cashbook-ind legalContent.ts) — not yet reviewed by a lawyer. Confirm the company name, the effective date, and the liability and warranty terms before publishing as final.",
   "group": "trust",
-  "title": "Terms of use",
-  "description": "Terms of use coming soon — the app is in pre-launch.",
-  "updated": "2026-11-18",
-  "draftNote": "TODO: verify. Add the lawyer-reviewed terms of use text here.",
+  "order": 3,
   "sections": [
     {
-      "heading": "Coming soon",
+      "heading": "Acceptance",
       "paragraphs": [
-        "Terms of use coming soon — the app is in pre-launch."
+        "By using Bolcash you agree to these Terms with Bahikha Technologies Private Limited. Effective date: December 2026."
+      ]
+    },
+    {
+      "heading": "The service",
+      "paragraphs": [
+        "Bolcash helps small businesses in India record income, expenses and customer credit (khata), with optional AI-assisted entry."
+      ]
+    },
+    {
+      "heading": "Your account",
+      "paragraphs": [
+        "You sign in with your mobile number via OTP. Keep your device secure. You are responsible for the accuracy of the data you enter."
+      ]
+    },
+    {
+      "heading": "Acceptable use",
+      "paragraphs": [
+        "Use the app lawfully and only for your own business records. Do not misuse it, attempt to break its security, or upload others’ data without a lawful basis."
+      ]
+    },
+    {
+      "heading": "Your data & content",
+      "paragraphs": [
+        "Your records are yours. You can export or delete them anytime from Settings. Our handling of personal data is described in the Privacy Policy."
+      ]
+    },
+    {
+      "heading": "AI features & no professional advice",
+      "paragraphs": [
+        "AI features are best-effort and may be wrong — review results before relying on them. The app does not provide accounting, tax, legal or financial advice; consult a professional for those."
+      ]
+    },
+    {
+      "heading": "Availability, liability & termination",
+      "paragraphs": [
+        "The service is provided \"as is\"; we may change or suspend features. To the extent permitted by law, our liability is limited. [Insert your reviewed liability and warranty terms here.]",
+        "You may stop using the app and delete your account at any time."
+      ]
+    },
+    {
+      "heading": "Governing law & contact",
+      "paragraphs": [
+        "These Terms are governed by the laws of India. Questions or grievances: Grievance Officer, privacy@bolcash.com."
       ]
     }
-  ]
+  ],
+  "slug": "terms",
+  "title": "Terms of use",
+  "updated": "2026-11-23"
 }

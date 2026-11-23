@@ -12,8 +12,9 @@ export const legal = [
   { label: "Terms of use", href: "/terms/" },
 ] as const;
 
-// The 2 language hubs. Confirm the second language before launch.
+// The 3 language hubs. Confirm each language before launch.
 export const languages = [
   { code: "en", label: "English", href: "/" },
   { code: "hi", label: "हिन्दी", href: "/hi/" },
+  { code: "kn", label: "ಕನ್ನಡ", href: "/kn/" },
 ] as const;

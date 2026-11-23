@@ -18,7 +18,9 @@ describe("trust pages", () => {
   });
 
   it("copy has no numbers, prices or percentages (rule 2)", () => {
-    for (const p of all) {
+    // Legal prose is exempt: a privacy policy necessarily names years (DPDP Act),
+    // ages and the registered address. The rule still applies to the about page.
+    for (const p of all.filter((x) => x.slug === "about")) {
       const text = [
         p.title,
         p.description,
@@ -28,20 +30,29 @@ describe("trust pages", () => {
     }
   });
 
-  it("contact details are not invented: every detail line is a TODO", () => {
+  it("contact details come from the app config, not invented", () => {
     const c = all.find((p) => p.slug === "contact")!;
-    const lines = c.sections
-      .flatMap((s) => s.paragraphs)
-      .filter((t) => /^(Name|Email|Postal address)/.test(t) || t.startsWith("Email for"));
-    expect(lines.length).toBeGreaterThan(0);
-    for (const l of lines) expect(l).toContain("TODO: verify");
+    const text = c.sections.flatMap((s) => s.paragraphs).join(" ");
+    expect(text).toContain("support@bolcash.com");
+    expect(text).toContain("privacy@bolcash.com");
+    expect(text).toContain("Mancherial");
+    expect(text).not.toContain("TODO: verify");
   });
 
-  it("privacy and terms are placeholders until lawyer-reviewed text is supplied", () => {
-    for (const slug of ["privacy", "terms"]) {
-      const p = all.find((x) => x.slug === slug)!;
-      expect(p.sections, slug).toHaveLength(1);
-      expect(JSON.stringify(p), slug).toContain("coming soon — the app is in pre-launch.");
+  it("privacy and terms carry the app legal text and are still marked draft", () => {
+    const privacy = all.find((x) => x.slug === "privacy")!;
+    expect(privacy.sections.map((s) => s.heading)).toContain("Data we collect");
+    expect(privacy.sections.map((s) => s.heading)).toContain("Grievance / Data Protection Officer");
+    expect(JSON.stringify(privacy)).toContain("Digital Personal Data Protection Act");
+    expect(privacy.draftNote).toContain("not yet reviewed by a lawyer");
+
+    const terms = all.find((x) => x.slug === "terms")!;
+    expect(terms.sections.map((s) => s.heading)).toContain("Acceptance");
+    expect(terms.sections.map((s) => s.heading)).toContain("Governing law & contact");
+    expect(terms.draftNote).toContain("not yet reviewed by a lawyer");
+
+    for (const p of [privacy, terms]) {
+      expect(JSON.stringify(p)).not.toContain("coming soon — the app is in pre-launch.");
     }
   });
 });

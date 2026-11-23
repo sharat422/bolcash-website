@@ -1,32 +1,30 @@
 {
-  "order": 4,
-  "slug": "contact",
-  "group": "trust",
-  "title": "Contact and grievance",
   "description": "How to reach BolCash and how to make a complaint.",
-  "updated": "2026-11-18",
-  "draftNote": "TODO: verify all contact details on this page before it is published.",
+  "draftNote": "TODO: verify. Contact details copied from the app (ai-cashbook-ind constants.ts). A named Grievance Officer (a person, not just the role) is still needed, and the reply timeframe is still to be confirmed.",
+  "group": "trust",
+  "order": 4,
   "sections": [
     {
       "heading": "Questions and feedback",
-      "paragraphs": [
-        "Email for questions and feedback: TODO: verify"
-      ]
+      "paragraphs": ["Email for questions and feedback: support@bolcash.com"]
     },
     {
       "heading": "Grievance Officer",
       "paragraphs": [
-        "Name: TODO: verify",
-        "Email: TODO: verify",
-        "Postal address: TODO: verify"
+        "Name: Grievance Officer",
+        "Email: privacy@bolcash.com",
+        "Postal address: 3-408/26-2, Mancherial, Telangana 504208"
       ]
     },
     {
       "heading": "How we handle complaints",
       "paragraphs": [
         "Write to the Grievance Officer and tell us what went wrong. We will reply to you.",
-        "How quickly we reply: TODO: verify"
+        "We aim to acknowledge and respond as soon as possible."
       ]
     }
-  ]
+  ],
+  "slug": "contact",
+  "title": "Contact and grievance",
+  "updated": "2026-11-23"
 }
